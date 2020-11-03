@@ -11,6 +11,7 @@ for(var i=0; i < updateBtns.length; i++)
         console.log('user:',user)
         if(user == 'AnonymousUser')
         {
+            //console.log('Not logged in')
             addCookieItem(productId,action)
         }
         else
